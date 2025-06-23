@@ -2,9 +2,23 @@ export const data = {
     name: "Mike Allen",
     jobTitle: "UI/UX Engineer",
     email: "mikewallen@pm.me",
-    linkedin: "https://www.linkedin.com/in/william-allen-3b538429/",
-    github: "https://github.com/mikevocalz",
-    twitter: "https://twitter.com/mikevocalz",
+   socials: [
+  {
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/william-allen-3b538429/",
+    icon: "linkedin"
+  },
+  {
+    name: "github",
+    url: "https://github.com/mikevocalz",
+    icon: "github"
+  },
+  {
+    name: "twitter",
+    url: "https://twitter.com/mikevocalz",
+    icon: "twitter"
+  }
+],
     works: [
     {
       id: 1,
